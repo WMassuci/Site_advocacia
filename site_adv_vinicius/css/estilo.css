@@ -1,0 +1,317 @@
+
+/** Layout **/
+
+html, body {
+
+	height: 100%;
+}
+
+
+
+/** Barra de Navegação **/
+
+.divisor{
+
+	background: #c4a865;
+	width: 1px;
+	margin: 12px 15px;
+
+}
+
+
+.troca-cor{
+
+	background: url(../img/imgok.png);
+}
+
+nav.nav-transparente{
+
+	padding: 15px 0px;
+	background: rgba(0,0,0,0.6);
+}
+
+
+
+.navbar-light .navbar-nav .nav-link{
+
+	color: #c4a865;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover{
+
+	color: #DCDCDC;
+}
+
+.navbar-light .navbar-toggler{
+
+	color: #c4a865;
+	border-color: #c4a865;
+}
+
+
+/** Capa **/
+
+
+#capa{
+
+	background: url(../img/imgok.png);
+	background-attachment: fixed;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+
+.solucao{
+
+	margin: 100px 0px;
+	color: white;
+}
+
+.solucao h2{
+
+	font-weight: 50;
+}
+
+
+.btn-cadastro{
+
+	border: 1px solid #c4a865;
+	color: #c4a865;
+}
+
+
+.btn-cadastro:hover {
+
+	background-color: #c4a865;
+	color: black;
+}
+
+
+.btn-custom{
+
+	color: green;
+	width: 195px;
+}
+
+
+.btn-custom:hover{
+
+	color: white;
+	background: green;
+}
+
+
+
+
+/** Botao Zapp **/
+
+.botao-zapp{
+
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 30px;
+	right: 40px;
+	background-color: #25d366;
+	color: #fff;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 30px;
+	box-shadow: 1px 1px 2px #888;
+	z-index: 1000;
+}
+
+
+.botao-zapp:hover{
+
+	color: white;
+}
+
+.fa-whatsapp2{
+
+	margin-top: 15px;
+}
+
+
+
+
+
+/** Apresentação **/
+
+.apresentacao{
+
+	padding: 15px;
+	border-bottom: 1px solid #bbc6c6;
+	text-align: center;
+}
+
+
+.gestao{
+
+	margin: 20px 0px;
+}
+
+
+.editor-icone-texto{
+
+	color: #293e40;
+	font-weight: bold;
+}
+
+
+.editor-icone{
+
+	color: #c4a865;
+}
+
+
+
+/** Seção Atuações**/
+
+
+.atuacao{
+
+	padding: 60px;
+}
+
+.card h5{
+
+	color: #293e40;
+	font-weight: bold;
+}
+
+
+
+
+/** Seção Sobre o Advogado **/
+
+
+.texto-adv{
+
+	padding-top: 40px;
+}
+
+
+.img-adv{
+
+	text-align: center;
+}
+
+
+.img-adv img{
+
+	border-radius: 6px;
+}
+
+
+.sobre-adv{
+
+	padding-top: 20px;
+	padding-bottom: 40px;
+	background-color: #F5F5F5;
+}
+
+
+
+
+/** Rodape **/
+
+
+footer {
+
+	padding: 30px;
+	background: url(../img/imgok.png);
+}
+
+
+
+footer h5{
+
+	color: #E0E3E3;
+	text-transform: uppercase;
+}
+
+
+footer a{
+
+	color: white;
+}
+
+
+footer a:hover{
+
+	color: #c4a865;
+}
+
+
+.rodape-contato{
+
+	color: white;
+}
+
+.dev{
+
+	color: white;
+	margin-top: 5px;
+}
+
+
+
+
+
+
+/** Medias queries **/
+
+
+/** Extra small devices (portrait phones, less than 576px) **/
+@media (max-width: 575.98px) {
+
+	.texto-ordens{
+
+		margin-bottom: 80px;
+	}
+
+
+
+	.card{
+
+		margin-bottom: 10px;
+	}
+
+}
+
+
+
+/** Small devices (landscape phones, 576px and up) **/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+
+}
+
+
+
+
+/** Medium devices (tablets, 768px and up) **/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+}
+
+
+
+
+/** Large devices (desktops, 992px and up) **/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+}
+
+
+
+
+/** Extra large devices (large desktops, 1200px and up) **/
+@media (min-width: 1200px) {
+
+
+}
+
