@@ -64,11 +64,12 @@ nav.nav-transparente{
 .solucao{
 
 	margin: 100px 0px;
-	color: white;
+	color: #c4a865;
 }
 
 .solucao h2{
 
+	margin-bottom: 15px;
 	font-weight: 50;
 }
 
@@ -89,6 +90,8 @@ nav.nav-transparente{
 
 .btn-custom{
 
+	position: absolute;
+	margin-top: 50px;
 	color: green;
 	width: 195px;
 }
@@ -194,13 +197,16 @@ nav.nav-transparente{
 
 .img-adv{
 
+	margin-top: 45px;
 	text-align: center;
 }
 
 
 .img-adv img{
 
-	border-radius: 6px;
+	width: 300px;
+	height: 300px;
+	border-radius: 300px;
 }
 
 
@@ -248,6 +254,13 @@ footer a:hover{
 
 	color: white;
 }
+
+
+.rodape-contato h3{
+
+	color: #c4a865;
+}
+
 
 .dev{
 
