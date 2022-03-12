@@ -171,6 +171,10 @@ nav.nav-transparente{
 
 /** Seção Atuações**/
 
+.card{
+
+	font-family: 'Catamaran', sans-serif;
+}
 
 .atuacao{
 
@@ -192,6 +196,7 @@ nav.nav-transparente{
 .texto-adv{
 
 	padding-top: 40px;
+	font-family: Cambria,Georgia,serif;  
 }
 
 

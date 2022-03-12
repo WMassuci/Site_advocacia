@@ -64,12 +64,14 @@ nav.nav-transparente{
 
 	margin: 100px 0px;
 	color: white;
+	text-align: center;
 }
 
 .solucao h2{
 
 	color: #c4a865;
-	font-weight: 80;
+	font-weight: bolder;
+	text-shadow: 10px 5px 5px black;
 }
 
 
